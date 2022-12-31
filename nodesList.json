@@ -1,46 +1,18 @@
 {
-  "links": [
-    {
-      "value": 1,
-      "source": "M1",
-      "target": "M2"
-    },
-    {
-      "value": 8,
-      "source": "M1",
-      "target": "M3"
-    },
-    {
-      "value": 10,
-      "source": "M2",
-      "target": "M3"
-    },
-    {
-      "value": 6,
-      "source": "M4",
-      "target": "M5"
-    }
-  ],
   "nodes": [
-    {
-      "id": "M1",
-      "group": 1
-    },
-    {
-      "id": "M2",
-      "group": 1
-    },
-    {
-      "id": "M3",
-      "group": 1
-    },
-    {
-      "id": "M4",
-      "group": 2
-    },
-    {
-      "id": "M5",
-      "group": 2
-    },
+    {"id": "M1", "group": 1},
+    {"id": "M2", "group": 1},
+	{"id": "M3", "group": 1},
+	{"id": "M4", "group": 2},
+	{"id": "M5", "group": 2},
+	{"id": "M6", "group": 3}
+  ],
+  "links": [
+    {"source": "M1", "target": "M2", "value": 1},
+	{"source": "M1", "target": "M3", "value": 1},
+	{"source": "M2", "target": "M3", "value": 1},
+	{"source": "M4", "target": "M3", "value": 1},
+	{"source": "M4", "target": "M5", "value": 1},
+	{"source": "M5", "target": "M6", "value": 1}
   ]
 }
