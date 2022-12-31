@@ -2,37 +2,45 @@
   "links": [
     {
       "value": 1,
-      "source": "Napoleon",
-      "target": "Myriel"
+      "source": "M1",
+      "target": "M2"
     },
     {
       "value": 8,
-      "source": "Mlle.Baptistine",
-      "target": "Myriel"
+      "source": "M1",
+      "target": "M3"
     },
     {
       "value": 10,
-      "source": "Mme.Magloire",
-      "target": "Myriel"
+      "source": "M2",
+      "target": "M3"
     },
     {
       "value": 6,
-      "source": "Mme.Magloire",
-      "target": "Mlle.Baptistine"
+      "source": "M4",
+      "target": "M5"
     }
   ],
   "nodes": [
     {
-      "id": "Myriel",
+      "id": "M1",
       "group": 1
     },
     {
-      "id": "Napoleon",
+      "id": "M2",
       "group": 1
     },
     {
-      "id": "Mlle.Baptistine",
+      "id": "M3",
       "group": 1
-    }
+    },
+    {
+      "id": "M4",
+      "group": 2
+    },
+    {
+      "id": "M5",
+      "group": 2
+    },
   ]
 }
