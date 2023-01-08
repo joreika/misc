@@ -4,7 +4,7 @@
 			"nodes": [
 				{
 					"name": "M1",
-					"radiusSize": 20,
+					"radiusSize": 12,
 					"fillColor": "#5a1502"
 				},
 				{
