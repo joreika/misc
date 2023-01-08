@@ -1,0 +1,55 @@
+{
+	"results": [
+		{
+			"nodes": [
+				{
+					"name": "M1",
+					"radiusSize": 20,
+					"fillColor": "#fa6502"
+				},
+				{
+					"name": "M2",
+					"radiusSize": 35,
+					"fillColor": "#fa4502"
+				},
+				{
+					"name": "M3",
+					"radiusSize": 10,
+					"fillColor": "#f24932"
+				},
+				{
+					"name": "M4",
+					"radiusSize": 16,
+					"fillColor": "#f246a2"
+				},
+				{
+					"name": "M5",
+					"radiusSize": 3,
+					"fillColor": "#924992"
+				}
+			],
+			"links": [
+				{
+					"source": "M1",
+					"target": "M2",
+					"value": "V1"
+				},
+				{
+					"source": "M2",
+					"target": "M3",
+					"value": "V2"
+				},
+				{
+					"source": "M1",
+					"target": "M3",
+					"value": "V3"
+				},
+				{
+					"source": "M4",
+					"target": "M5",
+					"value": "V4"
+				}
+			]
+		}
+	]
+}
